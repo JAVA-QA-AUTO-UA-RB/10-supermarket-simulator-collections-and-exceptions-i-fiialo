@@ -1,5 +1,4 @@
-package main.java;
-
+import main.java.*;
 import main.java.exceptions.DuplicateCategoryException;
 import main.java.exceptions.InsufficientFundsException;
 import main.java.exceptions.NoSuchProductException;
