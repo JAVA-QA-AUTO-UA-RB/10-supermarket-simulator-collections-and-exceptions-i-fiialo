@@ -1,8 +1,8 @@
-import main.supermarket.*;
-import main.supermarket.exceptions.DuplicateCategoryException;
-import main.supermarket.exceptions.InsufficientFundsException;
-import main.supermarket.exceptions.NoSuchProductException;
-import main.supermarket.exceptions.OutOfStockException;
+import main.*;
+import main.exceptions.DuplicateCategoryException;
+import main.exceptions.InsufficientFundsException;
+import main.exceptions.NoSuchProductException;
+import main.exceptions.OutOfStockException;
 
 public class SupermarketSimulator {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.supermarket.exceptions;
+package main.exceptions;
 
 public class DuplicateCategoryException extends Exception {
     public DuplicateCategoryException(String message) {

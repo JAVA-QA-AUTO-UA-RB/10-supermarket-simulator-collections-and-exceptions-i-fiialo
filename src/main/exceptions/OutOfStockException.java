@@ -1,4 +1,4 @@
-package main.supermarket.exceptions;
+package main.exceptions;
 
 public class OutOfStockException extends Exception {
     public OutOfStockException(String message) {

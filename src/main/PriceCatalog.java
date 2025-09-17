@@ -1,6 +1,6 @@
-package main.supermarket;
+package main;
 
-import main.supermarket.exceptions.NoSuchProductException;
+import main.exceptions.NoSuchProductException;
 
 import java.util.HashMap;
 import java.util.Map;

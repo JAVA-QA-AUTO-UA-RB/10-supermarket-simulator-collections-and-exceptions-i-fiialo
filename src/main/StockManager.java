@@ -1,6 +1,6 @@
-package main.supermarket;
+package main;
 
-import main.supermarket.exceptions.OutOfStockException;
+import main.exceptions.OutOfStockException;
 
 import java.util.HashMap;
 import java.util.Map;
