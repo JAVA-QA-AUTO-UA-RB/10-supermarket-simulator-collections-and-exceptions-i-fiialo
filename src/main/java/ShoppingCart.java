@@ -1,5 +1,9 @@
 package main.java;
 
+import main.java.exceptions.CartLimitExceededException;
+import main.java.exceptions.InsufficientFundsException;
+import main.java.exceptions.NoSuchProductException;
+
 import java.util.ArrayList;
 import java.util.List;
 
