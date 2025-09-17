@@ -23,9 +23,8 @@ jobs:
 
       - name: Compile and run SupermarketSimulator
         run: |
-          mkdir -p out
-          javac -d out $(find src/main/java -name "*.java")
-          java -cp out supermarket.SupermarketSimulator
+          javac main/java/SupermarketSimulator.java
+          java -cp main/java SupermarketSimulator
         continue-on-error: false
 
       - name: Check exit code
