@@ -21,7 +21,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Compile and run SupermarketSimulator
+      - name: Compile and run main.SupermarketSimulator
         run: |
           mkdir -p out
           javac -d out $(find src/main -name "*.java")
