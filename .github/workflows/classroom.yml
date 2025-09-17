@@ -21,12 +21,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Compile and run main.SupermarketSimulator
+      - name: Compile and run SupermarketSimulator
         run: |
-          mkdir -p out
-          javac -d out $(find src/main -name "*.java")
-          java -cp out main.SupermarketSimulator
-        continue-on-error: false
+            mkdir -p out
+            javac -d out $(find src/main -name "*.java")
+            java -cp out SupermarketSimulator
+          continue-on-error: false
 
       - name: Check exit code
         run: |
