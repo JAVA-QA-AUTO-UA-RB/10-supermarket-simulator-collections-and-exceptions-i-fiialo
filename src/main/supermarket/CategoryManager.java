@@ -1,6 +1,6 @@
-package main.java;
+package main.supermarket;
 
-import main.java.exceptions.DuplicateCategoryException;
+import main.supermarket.exceptions.DuplicateCategoryException;
 
 import java.util.HashSet;
 import java.util.Set;

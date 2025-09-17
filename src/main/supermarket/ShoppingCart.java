@@ -1,8 +1,8 @@
-package main.java;
+package main.supermarket;
 
-import main.java.exceptions.CartLimitExceededException;
-import main.java.exceptions.InsufficientFundsException;
-import main.java.exceptions.NoSuchProductException;
+import main.supermarket.exceptions.CartLimitExceededException;
+import main.supermarket.exceptions.InsufficientFundsException;
+import main.supermarket.exceptions.NoSuchProductException;
 
 import java.util.ArrayList;
 import java.util.List;

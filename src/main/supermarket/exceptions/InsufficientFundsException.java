@@ -1,4 +1,4 @@
-package main.java.exceptions;
+package main.supermarket.exceptions;
 
 public class InsufficientFundsException extends Exception {
     public InsufficientFundsException(String message) {

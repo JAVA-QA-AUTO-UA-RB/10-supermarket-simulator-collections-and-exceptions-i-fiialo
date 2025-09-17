@@ -1,4 +1,4 @@
-package main.java.exceptions;
+package main.supermarket.exceptions;
 
 public class NoSuchProductException extends Exception {
     public NoSuchProductException(String message) {
