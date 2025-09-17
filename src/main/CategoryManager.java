@@ -1,7 +1,5 @@
 package main;
 
-import main.exceptions.DuplicateCategoryException;
-
 import java.util.HashSet;
 import java.util.Set;
 
